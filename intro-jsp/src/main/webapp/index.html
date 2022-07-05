@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Somar Parcelas</title>
+</head>
+<body>
+	<h1>Digite as parcelas que você quer somar:</h1>
+	<form action="somar" method="get">
+		<input type="text" name="parcela1"/>
+		+
+		<input type="text" name="parcela2"/>
+		<input type="submit" value="calcular" name="soma"/>
+	</form>
+	
+	<h1>Digite o seu nome e sobrenome:</h1>
+	<form action="nome-completo" method="post">
+		<p>
+			<input type="text" name="nome"/>
+		</p>
+		<p>	
+			<input type="text" name="sobrenome"/>
+		</p>
+		<input type="submit" value="enviar"/>
+	</form>
+	
+	<h1>Digite o seu nome e sobrenome e será direcionada a output-el-expression.jsp:</h1>
+	<form action="el-expression" method="post">
+		<p>
+			<input type="text" name="nome"/>
+		</p>
+		<p>	
+			<input type="text" name="sobrenome"/>
+		</p>
+		<input type="submit" value="enviar"/>
+	</form>
+</body>
+</html>
